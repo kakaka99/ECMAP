@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="30dp"
+    android:layout_marginTop="5dp"
+    card_view:cardCornerRadius="4dp">
+
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+<!--
+        <View
+            android:layout_height="1dp"
+            android:layout_marginBottom="5dp"
+            android:background="#333" />
+-->
+        <LinearLayout
+            android:layout_marginStart="5dp">
+
+            <TextView
+                android:id="@+id/comment"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:textSize="19sp"
+                android:text="12321312312313" />
+
+            <TextView
+                android:id="@+id/mark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:text="12321312312313" />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_marginStart="5dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Created At : " />
+
+        <TextView
+            android:id="@+id/created_at"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="12321312312313" />
+        </LinearLayout>
+
+
+
+    </TableLayout>
+
+</android.support.v7.widget.CardView>
