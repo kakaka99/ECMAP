@@ -27,8 +27,6 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonArrayRequest;
 import com.android.volley.toolbox.Volley;
-import com.example.xdeveloper.simplewebstuff.dummy.DummyContent;
-import com.example.xdeveloper.simplewebstuff.dummy.DummyContent.DummyItem;
 import com.google.android.gms.maps.model.LatLng;
 
 import org.json.JSONArray;

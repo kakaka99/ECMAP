@@ -109,10 +109,6 @@ public class MainActivity extends AppCompatActivity
                     .replace(R.id.containerView, new ItemFragment())
                     .commit();
 
-        } else if (id == R.id.nav_share) {
-
-        } else if (id == R.id.nav_send) {
-
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

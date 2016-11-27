@@ -13,7 +13,6 @@ import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
 import com.example.xdeveloper.simplewebstuff.ItemFragment.OnListFragmentInteractionListener;
-import com.example.xdeveloper.simplewebstuff.dummy.DummyContent.DummyItem;
 
 import java.util.HashMap;
 import java.util.List;

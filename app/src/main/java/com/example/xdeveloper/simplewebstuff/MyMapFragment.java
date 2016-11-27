@@ -230,7 +230,7 @@ private LatLng current_location;
 
         this.current_location = new LatLng(location.getLatitude(),location.getLongitude());
 
-        Toast.makeText(getContext(), "!!!! current location is:" + location, Toast.LENGTH_LONG).show();
+        //Toast.makeText(getContext(), "!!!! current location is:" + location, Toast.LENGTH_LONG).show();
 
 
 
