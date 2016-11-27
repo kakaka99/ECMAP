@@ -1,4 +1,4 @@
-package com.example.xdeveloper.simplewebstuff.utils;
+package com.example.xdeveloper.simplewebstuff;
 
 import com.google.android.gms.maps.model.LatLng;
 
